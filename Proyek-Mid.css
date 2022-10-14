@@ -1,0 +1,193 @@
+.Daytrans {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+.Beranda {
+    position: absolute;
+    left: 250px;
+    top: -5px;
+    text-transform: uppercase;
+}
+.Blog {
+    position: absolute;
+    left: 360px;
+    top: -5px;
+    text-transform: uppercase;
+}
+.Outlet {
+    position: absolute;
+    left: 450px;
+    top: -5px;
+    text-transform: uppercase;
+}
+.Bagaimana {
+    position: absolute;
+    left: 560px;
+    top: -5px;
+    text-transform: uppercase;
+}
+.Beranda ,.Blog , .Outlet , .Bagaimana {
+    color: darkgray;
+    text-decoration: none;
+}
+.Membayar {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+.Pemesanan {
+    top: 5px;
+    left: 710px;
+    padding: 0px 10px 0px 10px;
+    color: red;
+    position: absolute;
+    text-decoration: none;
+    border-style: solid; 
+    border-radius: 5px;
+}
+.huruf {
+    font-family: "Ubuntu";
+    background-color: red;
+}
+.Pemesanan1 {
+    position: absolute;
+    top: 40px;
+    left: 22px;
+}
+.Beranda ,.Blog , .Outlet , .Bagaimana ,.Membayar, .Pemesanan ,.Pemesanan1{
+    font-size: 15px;
+}
+.Pemesanan:hover {
+    background-color: red;
+    color: white;
+}
+.Tarif {
+    top: 4px;
+    color:lightblue;
+    position: absolute;
+    right:270px;
+    text-decoration: none;
+    border: solid lightblue  ;
+    padding:0px 10px 0px 10px ;
+    border-radius: 5px;
+}
+.Tarif:hover {
+    background-color: lightblue;
+    color: white;
+}
+.Cek {
+    top: 4px;
+    color: lightblue;
+    position: absolute;
+    right: 150px;
+    text-decoration: none;
+    border: solid lightblue;
+    padding:0px 10px 0px 10px ;
+    border-radius: 5px;
+}
+.Cek:hover {
+ background-color: lightblue;
+ color: white;
+}
+.Masuk {
+    top: 5px;
+    color: red;
+    position: absolute;
+    right:10px;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+    background-color: rgb(217, 182, 182);
+}
+.Pesan {
+    color:white;
+    padding: 50px 30px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 80px;
+}
+.Daytrans1 {
+    width: 1220px;
+    height:330px;
+    position: absolute;
+    bottom: 160px;
+    z-index: -1;
+}
+.dari {
+    background-color: white;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.kanan {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.kanan:hover {
+    background-color:rgb(120, 19, 19);
+}
+.Animasi {
+    width: 1060px;
+    height: 400px;
+    margin-left: 50px;
+}
+.Berpergian {
+    color: red;
+}
+.rasakan {
+    color: dimgray;
+}
+.Berpergian1 {
+    position: absolute;
+    left: 600px;
+    top: 900px;
+}
+.Ergonomis {
+    display: flex;
+}
+.Ergonomis >div {
+    background-color: #f1f1f1;
+    margin: 15px;
+    padding: 29px;
+    font-size: 20px;
+}
+.sistem {
+    display: flex;
+}
+.sistem  >div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 28px;
+  font-size: 20px;
+  margin:20px;
+}
+.Mesin {
+    display: flex;
+}
+.Mesin >div {
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 30px;
+    font-size: 20px;
+    margin:20px ;
+}
+.Instal {
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+.footer1 {
+    margin-left: 29px;
+}
+.footer2 {
+}
+
