@@ -1,230 +1,204 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Hubungi Kontak Kami</title>
-        <style>
-            body {
-                background-color:coral;
-            }
-            h1 {
-                text-align: center;
-                color: white;
-            }
-            .Daytrans {
-    position: absolute;
-    left: 70px;
-    top: 10px;
-}
-.Beranda {
-    position: absolute;
-    left: 250px;
-    top: -5px;
-    text-transform: uppercase;
-}
-.Blog {
-    position: absolute;
-    left: 360px;
-    top: -5px;
-    text-transform: uppercase;
-}
-.Outlet {
-    position: absolute;
-    left: 450px;
-    top: -5px;
-    text-transform: uppercase;
-}
-.Bagaimana {
-    position: absolute;
-    left: 560px;
-    top: -5px;
-    text-transform: uppercase;
-}
-.Beranda ,.Blog , .Outlet , .Bagaimana {
-    color: white;
-    text-decoration: none;
-}
-.Membayar {
-    position: absolute;
-    top: 40px;
-    left: 0px;
-}
-.Pemesanan {
-    top: 5px;
-    left: 710px;
-    padding: 0px 10px 0px 10px;
-    color: red;
-    position: absolute;
-    text-decoration: none;
-    border-style: solid; 
-    border-radius: 5px;
-}
-.huruf {
-    font-family: "Ubuntu";
-    background-color: red;
-}
-.Pemesanan1 {
-    position: absolute;
-    top: 40px;
-    left: 22px;
-}
-.Beranda ,.Blog , .Outlet , .Bagaimana ,.Membayar, .Pemesanan ,.Pemesanan1{
-    font-size: 15px;
-}
-.Pemesanan:hover {
-    background-color: red;
-    color: white;
-}
-.Tarif {
-    top: 4px;
-    color:lightblue;
-    position: absolute;
-    right:270px;
-    text-decoration: none;
-    border: solid lightblue  ;
-    padding:0px 10px 0px 10px ;
-    border-radius: 5px;
-}
-.Tarif:hover {
-    background-color: lightblue;
-    color: white;
-}
-.Cek {
-    top: 4px;
-    color: lightblue;
-    position: absolute;
-    right: 150px;
-    text-decoration: none;
-    border: solid lightblue;
-    padding:0px 10px 0px 10px ;
-    border-radius: 5px;
-}
-.Cek:hover {
- background-color: lightblue;
- color: white;
-}
-.Masuk {
-    top: 5px;
-    color: red;
-    position: absolute;
-    right:10px;
-    text-decoration: none;
-    padding: 0px 30px 0px 30px;
-    background-color: rgb(217, 182, 182);
-}
-footer {
-    background-color: black;
-    color: white;
-    padding-top: 20px;
-}
-.footer1 {
-    margin-left: 29px;
-}
-.footer2 {
-}
-        </style>
-    </head>
-    <body>
-        <div class="Daytrans">
-            <a href="index.html">
-            <img src="simbol-daytrans.png" alt="Daytrans" width="100px">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light text-white bg-white shadow-1">
+        <div class="container">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+            <a href="index.html" class="navbar-brand">
+                <img src="simbol-daytrans.png" alt="logo" style="width:80px" class="rounded-none">
             </a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav text-uppercase ms-5">
+             <li class="nav-item pr-2 ms-2">
+               <a href="https://fti.unai.edu" class="nav-link">Blog</a>
+             </li>
+             <li class="nav-item pr-2 ms-2">
+               <a href="https://unai.edu" class="nav-link">Shuttle</a>
+             </li>
+             <li class="nav-item pr-2 ms-2">
+               <a href="#" class="nav-link">Outlet</a>
+             </li>
+             <li class="nav-item pr-2 ms-2">
+               <a href="#" class="nav-link">Cara Bayar</a>
+             </li>
+             <li class="nav-item pr-2 ms-2">
+               <a href="biodata.html" class="btn btn-outline-danger text-uppercase my-2 my-sm-0 px-3"> 
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mb-1" width="20">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+               </svg>
+                Biodata</a>
+             </li>
+             <li class="nav-item pr-2 ms-2">
+               <a href="contact_us.html" class="btn btn-outline-info text-uppercase mb-1 my-2 my-sm-0 px-2  Tarif"> 
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" width="20"
+                 stroke="currentColor" class="mb-1"> <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+               </svg>
+                 Contact Us</a>
+             </li>
+             <li class="nav-item ms-2">
+             <a href="" class="btn btn-outline-info my-2 my-sm-0 Tarif pb-2">
+               <svg width="20" class="mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="2 10 640 500" ><!--! Font Awesome Free 6.1.1 by @fontawesome - 
+                 https://fontawesome.com License - https://fontawesome.com/license/free
+                  (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                  <path d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 
+                  143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 
+                  63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 
+                  17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 
+                  219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 
+                  304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg>
+                Free Content</a>
+             </li>
+             <li class="nav-tem pr-2 ms-2">
+            <a href="freecontent.html" class="btn btn-danger px-4"> 
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" width="20"
+             stroke="currentColor" class="mb-1"> <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+           </svg>
+            Masuk</a>
+             </li>
+         </ul>
+       </div>
+     </div>
+    </nav>
+
+    <div class="container bg-warning my-5 rounded">
+    <form class="">
+        <div class="mb-3">
+          <label for="InputNama" class="form-label text-danger">Nama</label>
+          <input type="text" class="form-control" id="inputnama" placeholder="Masukkan Nama Anda">
+          <div id="email" class="form-text text-primary">Harap Masukkan Nama Anda</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-danger">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Email Anda">
+          <div id="emailHelp" class="form-text text-primary">Harap Masukkan Email Anda</div>
+        </div>
+        <div class="mb-3">
+          <label for="inputpengguna" class="form-label text-danger">Nama Pengguna</label>
+          <input type="text" class="form-control" id="inputpengguna" placeholder="Masukkan Nama Pengguna">
+          <div id="pengguna" class="form-text text-danger"></div>
+        </div>
+        <div class="text-danger">Masukkan Jenis Kelamin Anda:</div>
+        <div class="form-check form-check-inline">
+         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Pria</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Wanita</label>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-danger">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+          <div id="emailHelp" class="form-text text-success">Harap Masukkan Password Anda Ya (Minimal 20 Karakter)</div>
+        </div>
+        <div class="mb-3">
+         <select name="" id="" class="form-select" aria-label="select"  >
+          <option class="fw-bold">Pilih Agama Anda</option>
+          <option value="1">Kristen</option>
+          <option value="2">Katholik</option>
+          <option value="3">Islam</option>
+          <option value="4">Buddha</option>
+          <option value="5">Hindu</option>
+          <option value="6">Konghucu</option>
+         </select>
+        </div>
+        <div class="mb-3">
+          <div class="text-danger">Hobi Anda:</div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox"  id="olahraga">
+            <label class="form-check-label" for="olahraga">
+            Olahraga
+            </label>
             </div>
-            <div class="huruf">
-            <a href="index.html" class="Beranda"><h3>Beranda</h3></a>
-            <a href="Biodata.html" class="Blog"><h3>Biodata</h3></a>
-            <a href="contact_us.html" class="Outlet"><h3>Contact</h3></a>  
-            <a href="content_random.html" class="Bagaimana"><h3>Free Content</h3></a>
-            <a href="https://fti.unai.edu" class="Pemesanan"><h3>FTI UNAI </h3></a>
-            <i class="fas fa-box-open"></i>
-            </div>
-            <a href="https:unai.edu" class="Tarif"><h3>Link UNAI</h3></a>
-            <a href="index.html" class="Cek"><h3>Cek Paket</h3></a>
-            <a href="index.html" class="Masuk"><h3>Masuk</h3></a>
-            <br><br><br><br><br>
-        <h1>Contact US</h1> 
-        <hr color="white">
-        <br>
-        <table>
-            <tr>
-        <td><label for="FirstName">Nama Lengkap</label></td>
-        <td>:<input type="text" name="FirstName" id="FirstName" placeholder="Masukkan Nama Lengkap Anda" size="50"></td>
-        </tr>
-        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
-        <tr>
-        <td> <label for="Email">Email</label></td>
-        <td> :<input type="text" name="Email" id="Email" placeholder="Masukkan Email Anda" size="40"></td>
-    </tr>
-    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
-    <tr>
-        <td><label for="Pengguna">Pengguna</label></td>
-        <td>:<input type="text" name="Pengguna" id="Pengguna" placeholder="Masukkan Nama Pengguna" size="40"></td>
-    </tr>
-    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
-    <tr>
-        <td><label for="Password">Password </label></td>
-        <td>:<input type="password" name="Password" id="Password" placeholder="Masukkan Password Anda"></td>
-    </tr>
-        
-        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
-        <tr>
-        <td>Jenis Kelamin</td>
-        <td>:<input type="radio" name="Jenis" value="Pria" id="Pria">
-         <label for="Pria">Pria</label></td>
-        <td><input type="radio" name="Jenis" value="Wanita" id="Wanita">
-         <label for="Wanita">Wanita</label></td>
-        </tr> 
-        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
-        <tr>
-        <td>Agama</td>
-        <td>:<select name="Agama" id="Agama">
-            <option value="Islam">Islam</option>
-            <option value="Kristen">Kristen</option>
-            <option value="Buddha">Buddha</option>
-            <option value="Hindu">Hindu</option>
-            <option value="Katholik">Katholik</option>
-            <option value="Konghucu">Konghucu</option>
-        </select>
-        </td>
-        </tr>
-         <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
-        <tr>
-        <td><label for="Alamat">Alamat</label></td>
-        <td><textarea name="Alamat" id="Alamat" cols="30" rows="5" placeholder="Masukkan Alamat Anda"></textarea></td>
-        </tr>
-        <tr>
-        <td>Hobi</td><td>:</td>
-    </tr>
-        <tr>
-            <td><input type="checkbox" name="hobbies" value="Basketball" id="Basketball">
-                <label for="Basketball">Basket</label>
-                </td>
-                </tr>
-                <tr>
-                <td><input type="checkbox" name="hobbies" value="Swimming" id="Swimming">
-                <label for="Swimming">Berenang</label></td>
-                </tr>
-                <tr>
-                <td><input type="checkbox" name="hobbies"  value="Watching" id="Watching">
-                <label for="Watching">Menonton</label></td>
-                </tr>
-                <tr>
-                <td>
-                <input type="checkbox" name="Reading"  value="Reading" id="Reading" >
-                <label for="Reading">Membaca</label>
-                </td>
-        </tr>
-        </table>
-        <br><br>
-        <input type="submit" name="submit" id="submit" value="SUBMIT">
-        </form>
-        <footer>
-            <div class="footer1">
-            <h2>Lainnya</h2>
-            <p>Shuttle</p>
-            <p><a href="Biodata.html" style="text-decoration: none; color: white;">Tentang</a></p>
-            <p><a href="" style="text-decoration:none ; color: white;">Cara Bayar</a></p>
-            <p> <a href="" style="text-decoration: none; color: white;"> Kebijakan Privasi</a></p>
-            </div>
-        </footer>
-    </body>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="Ngoding">
+              <label class="form-check-label" for="Ngoding">
+                Ngoding
+              </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="Mainkomputer">
+                <label class="form-check-label" for="Mainkomputer">
+                 Main Komputer
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="JajanThomas">
+                <label class="form-check-label" for="JajanThomas">
+                  Jajan Thomas
+                </label>
+                </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="Travelling">
+                  <label class="form-check-label" for="Travelling">
+                    Travelling
+                  </label>
+                </div>
+          </div>
+        <button type="submit" class="btn btn-primary mb-5">Submit</button>
+      </form>
+      </div>
+      
+    <footer class="bg-dark">
+        <div class="container py-5">
+          <div class="row  text-white text-center text-md-left">
+           <div class="col-lg-2">
+           <h4 class="me-5 ms-3">Lainnya</h4>
+           <p><a href="" class="text-white  me-5 Lainnya"> Shuttle</a></p>
+           <p><a href="" class="text-white  me-5 ms-1 Lainnya "> Tentang</a></p>
+           <p><a href="" class="text-white  me-4 Lainnya"> Cara Bayar </a></p>
+           <p><a href="" class="text-white  ms-4 me-2 Lainnya"> Kebijakan Privasi</a></p>
+           </div>
+       
+           <div class="col-lg-4">
+               <h4 class="me-5 ms-3">Kontak</h4>
+               <p> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-geo-alt mb-1" viewBox="0 0 16 16">
+                   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                   <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                 </svg> Jl Deplu Raya No.43 Bintaro, Pesanggarahan Jakarta Selatan 12320</p>
+               <p> <a href="#" class="text-white text-decoration-none"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone mb-1" viewBox="0 0 16 16">
+                   <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                 </svg> 62 21 3029 6767 </a> </p>
+               <p><a href="#" class="text-white text-decoration-none"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope mb-1" viewBox="0 0 16 16">
+                   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                 </svg> callcentre@daytrans.co.id </a></p>
+           </div>
+       
+           <div class="col-lg-3">
+               <h4 class="me-5 ms-3">Call Center</h4>
+               <p class="ms-5"><a href="" class="contact-link text-white text-decoration-none"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp mb-1" viewBox="0 0 16 16">
+                   <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                 </svg> 08558556767 (Whatsapp) </a></p>
+           </div>
+       
+           <div class="col-lg-3 mt-auto mb-auto text-white">
+              <p class="text-center text-md-right"> <img src="tulisandaytrans.png" alt="" class="mt-5" width="200px"> </p>
+           </div>
+           <div class="col-lg-9 col-md-9 pt-5 text-white">
+               <h4 class="text-center text-md-right ms-5">
+                   <a href="" class="text-white text-decoration-none"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram mb-1" viewBox="0 0 16 16">
+                       <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                     </svg> </a>
+               </h4>
+           </div>
+       
+           <div class="col-lg-3 pt-5 text-white ">
+               <p>Copyright 2022 Daytrans</p>
+       
+           </div>
+           
+         </div>
+         </div>
+         </footer>
+</body>
 </html>
